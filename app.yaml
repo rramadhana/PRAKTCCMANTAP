@@ -1,0 +1,7 @@
+runtime: nodejs16
+
+service: server
+entrypoint: node server.js
+env_variables:
+ GAE_DB_ADDRESS: "/cloudsql/if-c-03:asia-southeast1:ramadhan"
+
